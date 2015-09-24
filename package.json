@@ -4,7 +4,8 @@
   "description": "A program to help children learn necessary skills to be successful in lacrosse.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/nickbytes/wallball/issues"
   },
-  "homepage": "https://github.com/nickbytes/wallball#readme"
+  "homepage": "https://github.com/nickbytes/wallball#readme",
+  "devDependencies": {
+    "express": "^4.13.3",
+    "nodemon": "^1.7.0"
+  }
 }
